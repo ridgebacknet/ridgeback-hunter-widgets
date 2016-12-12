@@ -1,0 +1,18 @@
+# README
+Thomas Phillips <tom@ridgebacknet.com>
+:toc:
+:toclevels: 2
+:numbered:
+
+This repository contains training materials for creating Ridgeback Hunter dashboard widgets.
+The materials are provided for free by Ridgeback Network Defense, Inc.
+If you need assistance with the training materials or want help incorporating them into a course of your own, contact us at support@ridgebacknet.com.
+
+## About Ridgeback Hunter
+
+Ridgeback Hunter is an interactive defense platform for network security and network management.
+
+---
+
+The website for Ridgeback Network Defense is:
+http://www.ridgebacknet.com
