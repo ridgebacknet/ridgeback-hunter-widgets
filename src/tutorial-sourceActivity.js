@@ -53,18 +53,18 @@ var widget =
     render: function(e, source)
     {
         var data = source.log().filter(function(e){
-            return ADS.getLogField(e, "src_ip") &&
-                (ADS.getLogField(e, "src_ip") != "000.000.000.000") &&
-                (! ADS.getLogField(e, "src_sim"));
+            return source.getLogField(e, "src_ip") &&
+                (source.getLogField(e, "src_ip") != "000.000.000.000") &&
+                (! source.getLogField(e, "src_sim"));
         });
 
         var xFn = function(d)
         {
-            return ADS.getLogField(d, "time")
+            return source.getLogField(d, "time")
         };
         var yFn = function(d)
         {
-            var v = parseInt(ADS.getLogField(d, "src_ip").substr(12, 3));
+            var v = parseInt(source.getLogField(d, "src_ip").substr(12, 3));
             if (isNaN(v)) {
                 return 0;
             } else {
@@ -94,17 +94,18 @@ var widget =
             .attr("cy", function(d) { return y(yFn(d)) })
             .on("click", function(d) {
                 d3.select(e + " .value").html(
-                    "Time: " + new Date(parseInt(ADS.getLogField(d, "time"))) +
-                    " Protocol: " + ADS.getLogField(d, "proto") +
-                    "<br>SRC IP: " + ADS.getLogField(d, "src_ip") +
-                    " SRC MAC: " + ADS.getLogField(d, "src_mac") +
-                    "<br>DST: " + ADS.getLogField(d, "dst_ip") +
-                    " DST MAC: " + ADS.getLogField(d, "dst_mac"))
+                    "Time: " +
+                    new Date(parseInt(source.getLogField(d, "time"))) +
+                    " Protocol: " + source.getLogField(d, "proto") +
+                    "<br>SRC IP: " + source.getLogField(d, "src_ip") +
+                    " SRC MAC: " + source.getLogField(d, "src_mac") +
+                    "<br>DST: " + source.getLogField(d, "dst_ip") +
+                    " DST MAC: " + source.getLogField(d, "dst_mac"))
             })
             .append("svg:title")
             .text(function(d){
-                return new Date(parseInt(ADS.getLogField(d, "time"))) +
-                " SRC=" + ADS.getLogField(d, "src_ip");
+                return new Date(parseInt(source.getLogField(d, "time"))) +
+                " SRC=" + source.getLogField(d, "src_ip");
             });
     }, // render()
     noop: true

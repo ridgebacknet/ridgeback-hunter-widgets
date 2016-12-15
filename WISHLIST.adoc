@@ -1,0 +1,25 @@
+# WISHLIST
+Thomas Phillips <tom@ridgebacknet.com>
+
+This is a widget wishlist. Widget ideas here may be implemented later.
+
+## Reporting
+
+Upper management often wants non-technical reports.
+These widgets are report-oriented, suitable for printed (or emailed) reports.
+
+- Threats over the last 24 hours
+- Threats over the last 30 days
+- Resolved threats over the last 24 hours
+- Resolved threats over the last 30 days
+- New MAC addresses added, by hour, last 24 hours
+- New MAC addresses added, by day, last 30 days
+- New IP addresses added, by hour, last 24 hours
+- New IP addresses added, by day, last 30 days
+- Hosts contacting decoys over the last 24 hours
+- Hosts contacting decoys over the last 30 days
+
+---
+
+The website for Ridgeback Network Defense is:
+http://www.ridgebacknet.com
