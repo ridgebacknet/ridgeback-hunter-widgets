@@ -8,6 +8,12 @@ This repository contains training materials for creating Ridgeback Hunter dashbo
 The materials are provided for free by Ridgeback Network Defense, Inc.
 If you need assistance with the training materials or want help incorporating them into a course of your own, contact us at support@ridgebacknet.com.
 
+## Installing Widgets
+
+A dashboard widget is packaged as a Javascript .js file.
+To install a widget, copy the .js file into the ```/opt/ridgeback/plugins/ui``` directory.
+You may need to be the root or administrator user to copy the file.
+
 ## Current Widgets
 
 |===
