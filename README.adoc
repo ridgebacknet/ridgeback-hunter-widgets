@@ -26,7 +26,7 @@ You may need to be the root or administrator user to copy the file.
 
 ## Planned Widgets
 
-See WISHLIST.adoc for a list of widgets under consideration.
+See link:WISHLIST.adoc[WISHLIST.adoc] for a list of widgets under consideration.
 
 ## About Ridgeback Hunter
 
