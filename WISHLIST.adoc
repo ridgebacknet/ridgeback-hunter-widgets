@@ -23,3 +23,6 @@ These widgets are report-oriented, suitable for printed (or emailed) reports.
 
 The website for Ridgeback Network Defense is:
 http://www.ridgebacknet.com
+
+Support is available at:
+support@ridgebacknet.com
