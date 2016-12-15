@@ -12,7 +12,7 @@ If you need assistance with the training materials or want help incorporating th
 
 |===
 | *Screenshot* | *Title* | *ID* | *File* | *Description*
-| image:images/README-65fff.png[] | Empty Widget | tutorial-empty | link:/ridgebacknet/ridgeback-hunter-widgets/blob/master/src/tutorial-empty.js[tutorial-empty.js] | Demonstrates the minimal structure for a widget.
+| image:images/README-65fff.png[] | Empty Widget | tutorial-empty | link:src/tutorial-empty.js[tutorial-empty.js] | Demonstrates the minimal structure for a widget.
 | image:images/README-0b124.png[] | Hello World | tutorial-hello | tutorial-hello.js | Displays "Hello, world!" along with the number of records in the log.
 | image:images/README-fe475.png[] | Endpoint Inventory | tutorial-inventory | tutorial-inventory.js | Displays an inventory of IP and MAC addresses.
 | image:images/README-84de0.png[] | Live Source Activity | tutorial-sourceActivity | tutorial-sourceActivity.js | Displays a scatter plot of network activity.
