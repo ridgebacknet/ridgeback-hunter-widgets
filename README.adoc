@@ -11,11 +11,11 @@ If you need assistance with the training materials or want help incorporating th
 ## Current Widgets
 
 |===
-| *Title* | *ID* | *File* | *Description*
-| Empty Widget | tutorial-empty | tutorial-empty.js | Demonstrates the minimal structure for a widget.
-| Hello World | tutorial-hello | tutorial-hello.js | Displays "Hello, world!" along with the number of records in the log.
-| Endpoint Inventory | tutorial-inventory | tutorial-inventory.js | Displays an inventory of IP and MAC addresses.
-| Live Source Activity | tutorial-sourceActivity | tutorial-sourceActivity.js | Displays a scatter plot of network activity.
+| *Screenshot* | *Title* | *ID* | *File* | *Description*
+| image::images/README-65fff.png[] | Empty Widget | tutorial-empty | tutorial-empty.js | Demonstrates the minimal structure for a widget.
+| | Hello World | tutorial-hello | tutorial-hello.js | Displays "Hello, world!" along with the number of records in the log.
+| | Endpoint Inventory | tutorial-inventory | tutorial-inventory.js | Displays an inventory of IP and MAC addresses.
+| | Live Source Activity | tutorial-sourceActivity | tutorial-sourceActivity.js | Displays a scatter plot of network activity.
 |===
 
 ## Planned Widgets
