@@ -1,4 +1,4 @@
-# README
+# README (Desktop Widgets)
 Thomas Phillips <tom@ridgebacknet.com>
 :toc:
 :toclevels: 2
